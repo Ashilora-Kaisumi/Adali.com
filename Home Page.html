@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title> Adali.com </title>
+        <link rel = "stylesheet" href = "Home Page.css" type = "text/css">
+        <script src = "Home Page.js"></script>
+    </head>
+
+    <body>
+        <div class = "Container">
+                <div id = "Head">
+                    <div class = "Heading">
+                        <nav id = "nav-bar">
+                            <ul>
+                                <li><a  class = "nav-link" href = "#Head"> Home </a></li>
+                                <li><a class = "nav-link" href = "#Info"> Info </a></li>
+                                <li><a class = "nav-link" href = "#Login"> Login/Sign-Up </a></li>
+                                <li><a class = "nav-link" href = "#Head"> Request Ride </a></li>
+                            </ul>
+                        </nav>
+                        <div class = "Company">
+                            <ul>
+                                <li><a href = "#" onclick = "refreshPage()"> Adali </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class = "Heading2">
+                        <div class = "Heading21">
+                            <form>
+                                <h3> Location: </h3> <input type = "text" id = "location">
+                            </form>
+                            <form>
+                                <h3> Destination: </h3> <input type = "text" id = "destination">
+                            </form>
+                            <button onclick = "checkLocation()"> See Prices </button>
+                            <div id = "Content-Container"></div>
+                        </div>
+
+                        <div class = "Heading22">
+                            <img src = "Screenshot_20240121-005825_Canva.jpg" alt = "Logo" height = "350px">
+                        </div>
+                    </div>
+                </div>
+            <center>
+                <div class = "Foot">
+                    <div id = "Login">
+                        <form>
+                            <h2> LOGIN/SIGN-UP </h2>
+                            <h3> Email: </h3> <input type = "email" id = "email">
+                            <h3> Password: </h3> <input type = "password" id = "password">
+                        </form>
+                        <button onclick = "checkLogin()"> Login/Sign-Up </button>
+                    </div>
+                </div>
+            </center>
+            <div id = "Info">
+                <form>
+                    <h3> Adali </h3>
+                    <br>
+                    <h4> Visit Help Center </h4>
+                    <br>
+                    <br>
+                    <div class = "Items">
+                        <div class = "CompanyItem">
+                            <h5> Company </h5>
+                            <p> About Us </p>
+                            <p> Our Offerings </p>
+                            <p> Newsroom </p>
+                            <p> Investors </p>
+                            <p> Blog </p>
+                            <p> Careers </p>
+                            <p> AI </p>
+                            <p> Gift Cards </p>
+
+                            <br>
+
+                            <h5> Global Citizenship </h5>
+                            <p> Safety </p>
+                            <p> Diversity and Inclusion </p>
+                            <p> <br> </p>
+                            <p> <br> </p>
+                            <p> <br> </p>
+                            <h5> FOUNDERS </h5>
+                            <p> Ashley </p>
+                            <p> Tolu </p>
+                            <p> Divine </p>
+                        </div>
+
+                        <div class = "Products">
+                            <h5> Products </h5>
+                            <p> Ride </p>
+                            <p> Drive </p>
+                            <p> Eat </p>
+                            <p> Adali Freight </p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p><br></p>
+
+                            <br>
+
+                            <h5> Travel </h5>
+                            <p> Reserve </p>
+                            <p> Airports </p>
+                            <p> Cities </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

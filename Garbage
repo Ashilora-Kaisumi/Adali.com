@@ -1,0 +1,16 @@
+<div class = "Body">
+                        <h2> SELECT THE VEHICLE OF YOUR CHOICE </h2>
+                        <div id = "Images">
+                            <a href = "Car.html"><img src = "images (19).jpeg" target = "_self" alt = "Car" height = "200px" width = "300px" title = "#
+                                Car 
+                                Capacity: 5
+                                Boot Size: 50cm by 30cm"></a>
+                            <a href = "Jeep.html"><img src = "images (20).jpeg" target = "_self" alt = "Jeep" height = "200px" width = "300px" title = "#
+                                Jeep
+                                Capacity: 6
+                                Boot Size: 80cm by 70cm"></a>
+                            <a href = "Bus.html"><img src = "images (24).jpeg" target = "_self" alt = "Bus" height = "200px" width = "300px" title = "#
+                                Bus
+                                Capacity: 20
+                                Boot Size: 30cm by 20cm"></a>
+                        </div>
